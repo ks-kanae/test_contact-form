@@ -1,0 +1,175 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 0px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #8C7A6A;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    font-family: 'Inika', serif;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.form__group {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.form__group-title{
+    width: 30%;
+    text-align: left;
+    padding: 5px;
+}
+
+.form__group-content {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__label--item{
+    color: #8C7A6A;
+}
+
+.form__label--required {
+    color: #FF9391;
+}
+
+.form__error {
+    color: #ff0000;
+    font-size: 14px;
+    text-align: left;
+}
+
+.form__input input,
+.form__input textarea, .form__input--item select, .form__input--name input, .form__input--tel input{
+    padding: 10px 20px;
+    border: none;
+    background: #F4F4F4;
+    appearance: none;
+}
+
+input::placeholder,
+textarea::placeholder{
+    color: #a99381;
+    font-size: 15px;
+}
+
+.form__input input,
+.form__input textarea {
+    width: 550px;
+}
+
+.form__input input {
+    line-height: 25px;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.form__input textarea {
+    height: 180px;
+}
+
+.form__input--name {
+    display: flex;
+    width: 120%;
+}
+
+.form__input--name input{
+    width: 250px;
+    height: 40px;
+}
+
+.form__label--name-space {
+    margin: 22px;
+}
+
+.form__input--gender {
+    color: #8C7A6A;
+}
+
+.form__input--gender input{
+    appearance: none;
+}
+
+input[type="radio"] {
+    accent-color: #8C7A6A;
+}
+
+.radio__dot {
+    margin-right: 8px;
+    padding: 0 8px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #8C7A6A;
+    border-radius: 10px;
+}
+
+.form__input--gender input:checked+.radio__dot {
+    background: #8C7A6A;
+    border-color: #8C7A6A;
+}
+
+.form__label--gender-space {
+    margin: 25px;
+}
+
+.email input{
+    font-family: "Playfair Display", sun-serif;
+}
+
+.form__input--tel {
+    display: flex;
+    width:100%;
+}
+
+.form__input--tel input{
+    width: 155px;
+    min-width: 10%;
+    height: 40px;
+    text-align: center;
+    font-family: "Playfair Display",
+        sun-serif;
+    font-size: 16px;
+}
+
+.form__label--hyphen{
+    margin: 7px 3%;
+    color: #8C7A6A;
+}
+
+.form__input--item select{
+    width: 300px;
+    line-height: 20px;
+    font-size: 15px;
+    color: #c4b6ae;
+    background-image: url("../img/triangle-contact.svg");
+    background-repeat: no-repeat;
+    background-size: 24px auto;
+    background-position: right 12px center;
+}
+
+.form__button {
+    margin: 40px auto 60px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px 20px;
+    width: 18%;
+    height: 20%px;
+    font-size: 16px;
+    border: none;
+    background: #82756B;
+    color: #fff;
+    cursor: pointer;
+}

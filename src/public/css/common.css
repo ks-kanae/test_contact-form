@@ -1,0 +1,27 @@
+.header {
+    background: #FFFFFF;
+}
+
+.header__inner {
+    margin: 0 auto;
+    border-bottom: 2px solid #F4F4F4;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+h1 {
+    all: unset
+}
+
+.header__logo {
+    color: #8C7A6A;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    font-family: 'Inika', serif;
+}
+
+body {
+    overflow-y: auto;
+}

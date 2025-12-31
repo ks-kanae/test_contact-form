@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+    "**/.vscode": true
+    "src/resources/views/vendor":true
+  }
+}
