@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,9 +26,9 @@
             @yield('nav')
         </div>
     </header>
-
     <main>
         @yield('content')
     </main>
 </body>
+
 </html>

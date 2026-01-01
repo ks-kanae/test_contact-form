@@ -98,7 +98,7 @@
                     <ul>
                         @php
                         $telErrors = array_merge($errors->get('tel1'), $errors->get('tel2'), $errors->get('tel3'));
-                        $telErrors = array_unique($telErrors); // 重複を取り除く
+                        $telErrors = array_unique($telErrors);
                         @endphp
                         @foreach($telErrors as $error)
                         <li>{{ $error }}</li>

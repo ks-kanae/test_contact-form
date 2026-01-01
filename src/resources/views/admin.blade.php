@@ -93,7 +93,7 @@
             <tr class="admin-table__row">
                 <td class="admin-table__item">
                     <span class="table__item">
-                        <p class="table__item--name">{{ $contact->first_name }} {{ $contact->last_name }}
+                        <p class="table__item--name">{{ $contact->first_name }}　{{ $contact->last_name }}
                         </p>
                     </span>
                 </td>
@@ -137,7 +137,7 @@
                             <span class="group-title__item">お名前</span>
                         </div>
                         <div class="group-content">
-                            <span class="group-content__item">{{ $contact->first_name }} {{ $contact->last_name }}</span>
+                            <span class="group-content__item">{{ $contact->first_name }}　{{ $contact->last_name }}</span>
                         </div>
                     </div>
                     <div class="modal-group">
