@@ -158,6 +158,10 @@ input[type="radio"] {
     background-position: right 12px center;
 }
 
+.form__input-select:has(option:not(:disabled):checked) {
+    color: #000;
+}
+
 .form__button {
     margin: 40px auto 60px;
     text-align: center;
